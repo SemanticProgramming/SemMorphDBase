@@ -379,10 +379,10 @@
     <!-- http://www.soccomas.org/Ontologies/SOCCOMAS/SCMDBBasic#SC_MDB_BASIC_0000000031 -->
 
     <owl:Class rdf:about="&scmdbbasic;SC_MDB_BASIC_0000000031">
-        <rdfs:label>SOCCOMAS data entry status list named graph</rdfs:label>
+        <rdfs:label>SOCCOMAS data document status list named graph</rdfs:label>
         <rdfs:subClassOf rdf:resource="&scbasic;SC_BASIC_0000001234"/>
         <oboInOwl:id xml:lang="en">SC_MDB_BASIC_0000000031</oboInOwl:id>
-        <obi:IAO_0000115 xml:lang="en">The named graphs that contain the data entry IDs of entries that share a specific status in their life-cycle.</obi:IAO_0000115>
+        <obi:IAO_0000115 xml:lang="en">The named graphs that contain the data document version IDs of documents that share a specific status in their life-cycle.</obi:IAO_0000115>
     </owl:Class>
     
 
@@ -390,10 +390,10 @@
     <!-- http://www.soccomas.org/Ontologies/SOCCOMAS/SCMDBBasic#SC_MDB_BASIC_0000000034 -->
 
     <owl:Class rdf:about="&scmdbbasic;SC_MDB_BASIC_0000000034">
-        <rdfs:label>MDB entry type list named graph</rdfs:label>
+        <rdfs:label>MDB document type list named graph</rdfs:label>
         <rdfs:subClassOf rdf:resource="&scbasic;SC_BASIC_0000001422"/>
         <oboInOwl:id xml:lang="en">SC_MDB_BASIC_0000000034</oboInOwl:id>
-        <obi:IAO_0000115 xml:lang="en">The named graphs that contain the MDB entry IDs and MDB core IDs of a specific type of entry.</obi:IAO_0000115>
+        <obi:IAO_0000115 xml:lang="en">The named graphs that contain the document version IDs and core document IDs of a specific type of document.</obi:IAO_0000115>
     </owl:Class>
     
 
@@ -2676,7 +2676,7 @@ LOAD TEMPLATE: you load a previously saved description template that will replac
     <!-- http://www.soccomas.org/Ontologies/SOCCOMAS/SCMDBBasic#SC_MDB_BASIC_0000000261 -->
 
     <owl:Class rdf:about="&scmdbbasic;SC_MDB_BASIC_0000000261">
-        <rdfs:label>MDB media entry ID</rdfs:label>
+        <rdfs:label>MDB media document ID</rdfs:label>
         <rdfs:subClassOf rdf:resource="&scmdbbasic;SC_MDB_BASIC_0000000915"/>
         <oboInOwl:id xml:lang="en">SC_MDB_BASIC_0000000261</oboInOwl:id>
     </owl:Class>
@@ -2686,7 +2686,7 @@ LOAD TEMPLATE: you load a previously saved description template that will replac
     <!-- http://www.soccomas.org/Ontologies/SOCCOMAS/SCMDBBasic#SC_MDB_BASIC_0000000263 -->
 
     <owl:Class rdf:about="&scmdbbasic;SC_MDB_BASIC_0000000263">
-        <rdfs:label>MDB morphological description entry ID</rdfs:label>
+        <rdfs:label>MDB morphological description document ID</rdfs:label>
         <rdfs:subClassOf rdf:resource="&scmdbbasic;SC_MDB_BASIC_0000000915"/>
         <oboInOwl:id xml:lang="en">SC_MDB_BASIC_0000000263</oboInOwl:id>
     </owl:Class>
@@ -2696,7 +2696,7 @@ LOAD TEMPLATE: you load a previously saved description template that will replac
     <!-- http://www.soccomas.org/Ontologies/SOCCOMAS/SCMDBBasic#SC_MDB_BASIC_0000000265 -->
 
     <owl:Class rdf:about="&scmdbbasic;SC_MDB_BASIC_0000000265">
-        <rdfs:label>MDB matrix entry ID</rdfs:label>
+        <rdfs:label>MDB matrix document ID</rdfs:label>
         <rdfs:subClassOf rdf:resource="&scmdbbasic;SC_MDB_BASIC_0000000915"/>
         <oboInOwl:id xml:lang="en">SC_MDB_BASIC_0000000265</oboInOwl:id>
     </owl:Class>
@@ -2724,10 +2724,10 @@ LOAD TEMPLATE: you load a previously saved description template that will replac
     <!-- http://www.soccomas.org/Ontologies/SOCCOMAS/SCMDBBasic#SC_MDB_BASIC_0000000267 -->
 
     <owl:Class rdf:about="&scmdbbasic;SC_MDB_BASIC_0000000267">
-        <rdfs:label>MDB specimen entry ID</rdfs:label>
+        <rdfs:label>MDB specimen document ID</rdfs:label>
         <rdfs:subClassOf rdf:resource="&scmdbbasic;SC_MDB_BASIC_0000000915"/>
         <oboInOwl:id xml:lang="en">SC_MDB_BASIC_0000000267</oboInOwl:id>
-        <obi:IAO_0000115 xml:lang="en">The MDB ID of a MDB specimen entry.</obi:IAO_0000115>
+        <obi:IAO_0000115 xml:lang="en">The MDB ID of a MDB specimen document.</obi:IAO_0000115>
     </owl:Class>
     
 
@@ -4368,7 +4368,7 @@ A measurable (i.e. scalar) physical quality is a physical property that is treat
     <!-- http://www.soccomas.org/Ontologies/SOCCOMAS/SCMDBBasic#SC_MDB_BASIC_0000000414 -->
 
     <owl:Class rdf:about="&scmdbbasic;SC_MDB_BASIC_0000000414">
-        <rdfs:label>MDB taxon entry ID</rdfs:label>
+        <rdfs:label>MDB taxon document ID</rdfs:label>
         <rdfs:subClassOf rdf:resource="&scmdbbasic;SC_MDB_BASIC_0000000915"/>
         <oboInOwl:id xml:lang="en">SC_MDB_BASIC_0000000414</oboInOwl:id>
     </owl:Class>
@@ -4378,7 +4378,7 @@ A measurable (i.e. scalar) physical quality is a physical property that is treat
     <!-- http://www.soccomas.org/Ontologies/SOCCOMAS/SCMDBBasic#SC_MDB_BASIC_0000000415 -->
 
     <owl:Class rdf:about="&scmdbbasic;SC_MDB_BASIC_0000000415">
-        <rdfs:label>MDB taxonomic description entry ID</rdfs:label>
+        <rdfs:label>MDB taxonomic description document ID</rdfs:label>
         <rdfs:subClassOf rdf:resource="&scmdbbasic;SC_MDB_BASIC_0000000915"/>
         <oboInOwl:id xml:lang="en">SC_MDB_BASIC_0000000415</oboInOwl:id>
     </owl:Class>
@@ -15139,7 +15139,7 @@ It will allow you to link references that describe the location.</spro:SPRO_0000
     <!-- http://www.soccomas.org/Ontologies/SOCCOMAS/SCMDBBasic#SC_MDB_BASIC_0000000915 -->
 
     <owl:Class rdf:about="&scmdbbasic;SC_MDB_BASIC_0000000915">
-        <rdfs:label>MDB data entry ID</rdfs:label>
+        <rdfs:label>MDB data document ID</rdfs:label>
         <rdfs:subClassOf rdf:resource="&scbasic;SC_BASIC_0000001681"/>
         <oboInOwl:id xml:lang="en">SC_MDB_BASIC_0000000915</oboInOwl:id>
     </owl:Class>
