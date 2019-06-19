@@ -13,7 +13,7 @@ The following data schemes, database processes, and entry form and graphical use
   * workflow actions for adding parts to the partonomy of a given morphological description document.
 * entry form and GUI specifications:
   * our case-study for proof of concept: specimen document (specification of functionality only for the first panel and not for internal linking of entries, but the concept for the whole specimen document is completed, including the possibility of tracking history of a specimen and its relation to other specimens, like for instance if a DNA sample has been taken from an existing specimen);
-  * morphological description document (with specification of functionality of the main document page and the entry forms for the different categories of parts);
+  * morphological description document (with specification of functionality of the main document page and the entry forms for the different categories of parts).
 
 
 
